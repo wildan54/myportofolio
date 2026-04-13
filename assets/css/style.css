@@ -16,7 +16,7 @@ body {
     margin-left: 20px;
 }
 .nav-link:hover {
-    color: #0ea5e9 !important;
+    color: 	#0d6efd !important;
 }
 
 /* HERO */
@@ -28,12 +28,11 @@ body {
     font-weight: 800;
 }
 .hero span {
-    color: #0ea5e9;
+    color: #0d6efd;
 }
 
 /* BUTTON */
 .btn-main {
-    background: #0ea5e9;
     color: #fff;
     border-radius: 50px;
     padding: 12px 28px;
@@ -61,15 +60,9 @@ body {
 }
 
 /* PROJECT */
-.project-card img {
-    border-radius: 16px;
-}
-.project-card {
-    transition: 0.3s;
-}
-.project-card:hover {
-    transform: translateY(-8px);
-}
+.project-card { border-radius: 20px; overflow: hidden; transition: all 0.3s ease; border: none; }
+.project-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+.project-img { height: 200px; object-fit: cover; }
 
 /* FOOTER */
 .footer {
